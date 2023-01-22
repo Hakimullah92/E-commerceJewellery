@@ -34,6 +34,14 @@ tabs.forEach((a)=>{
       nav.classList.remove('active');
      });
      a.classList.add('active');
+     products.forEach((show)=>{
+      show.style.display="none";
+      let prod=a.textContent.toLowerCase();
+      // console.log(prod);
+      if(show.getAttribute("data-item")===prod){
+        show.style.display="block";
+      }
+     });
 
      a.preventDefault();
    });

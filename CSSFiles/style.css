@@ -180,9 +180,6 @@ body {
 /* ---------------- Product section Styling End-------------- */
 
 /* ----------- Deal of the day styling start-------------- */
-#deal{
-  padding-top: 3rem;
-}
 .deal-of-the-day{
   padding: 3rem 5rem;
   background:url(/Images/img/img-4.jpg);
