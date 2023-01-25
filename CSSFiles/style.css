@@ -98,11 +98,12 @@ body {
 .navigation .nav-link.show {
   color: var(--primary-color) !important;
 }
+
 /* ------------- navigation Styling End--------------- */
 
 /* --------------- hero Styling Start--------------- */
 #hero .carousel-caption {
-  top: 12rem !important;
+  top: 30%!important;
 }
 #hero .carousel-caption p {
   max-width: 36.478rem;
